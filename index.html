@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nocturnia</title>
     <link rel="stylesheet" href="style.css">
-
+    <link href='https://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inika' rel='stylesheet'>
 
 </head>
 
@@ -14,16 +16,15 @@
 <body>
     <main>
         <section>
-            <div class="caja1">
-                <div>
-                    <p class="pOfrendas">Ofrendas</p>
-                </div>
-
+            <div class="caja">
+                <p class="pOfrendas">Ofrendas</p>
+                <ul id="listaNombres"></ul>
                 <input type="text" id="nombreInput" placeholder="Escribe un nombre"><br>
                 <button id="agregarNombre">Agregar Nombre</button>
-                <ul id="listaNombres"></ul>
             </div>
         </section>
+
+
 
         <section class="middle">
             <div>
@@ -35,12 +36,13 @@
         </section>
 
         <section>
-            <p class="pSacrificios">Sacrificios</p>
-            <ul id="elementosElegidos"></ul>
-            <div class="botonesSacrificio">
-                <button id="reiniciar">Reinicio</button>
-                <button id="borrarTodo">Restablecer</button>
-            </div>
+            <div class="caja">
+                <p class="pSacrificios">Sacrificios</p>
+                <ul id="elementosElegidos"></ul>
+                <div class="botonesSacrificio">
+                    <button id="reiniciar">Reinicio</button>
+                    <button id="borrarTodo">Restablecer</button>
+                </div>
         </section>
 
 
