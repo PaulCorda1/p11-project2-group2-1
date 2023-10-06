@@ -1,0 +1,69 @@
+/*
+html {
+    height: 100%;
+    width: 100%;
+}
+*/
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(imagen-de-fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 
+
+
+
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em;
+    margin-top: ;
+    width: calc(100vw-4em);
+    height: 90vh;
+}
+
+p {
+    font-size: 40px;
+    color: white;
+    align-items: ;
+}
+
+ul {
+    color: white;
+    list-style: none;
+}
+
+
+
+.middle {
+    align-self: self-end;
+    margin: 0;
+}
+
+#agregarNombre {
+    
+    margin-left: 15%;
+    
+
+    margin: 25%;
+    
+}
+
+.pOfrendas {
+    margin-left: 8%;
+}
+
+.pSacrificios {
+    margin-right: .3em; 
+}
+
+.section3 {
+    margin-right: 2%;
+}
+
+.botonesSacrificio {
+    margin: 25%;
+}
